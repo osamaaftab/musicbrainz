@@ -1,0 +1,801 @@
+{
+  "created": "2021-05-31T07:49:11.135Z",
+  "count": 40,
+  "offset": 0,
+  "places": [
+    {
+      "id": "a1e3d661-1711-4d38-a99c-75ef7775a6a6",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 100,
+      "name": "Albert Hall",
+      "disambiguation": "Manchester",
+      "address": "27 Peter Street, Manchester, M2 5QR",
+      "coordinates": {
+        "latitude": "53.47826",
+        "longitude": "-2.24793"
+      },
+      "area": {
+        "id": "852531bf-3410-401f-b432-9c3157a386b9",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Manchester",
+        "sort-name": "Manchester",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "2013",
+        "ended": null
+      }
+    },
+    {
+      "id": "47b8baf6-0dd7-4de6-9cef-3a96810b8a37",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 64,
+      "name": "Glasgow Royal Concert Hall",
+      "address": "2 Sauchiehall Street, G2 3NY",
+      "coordinates": {
+        "latitude": "55.864503",
+        "longitude": "-4.252921"
+      },
+      "area": {
+        "id": "c279f805-01f8-46f5-99cf-51f165a1adad",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Glasgow",
+        "sort-name": "Glasgow",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1990",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "GRCH",
+          "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+          "name": "GRCH",
+          "locale": null,
+          "type": "Search hint",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Royal Concert Hall",
+          "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+          "name": "Royal Concert Hall",
+          "locale": "en",
+          "type": "Place name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "cfebe93e-1a6c-44b3-8274-86d71060bec5",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Bridgewater Hall",
+      "address": "Lower Mosley St, Manchester, Lancashire M2 3WS",
+      "coordinates": {
+        "latitude": "53.475278",
+        "longitude": "-2.245833"
+      },
+      "area": {
+        "id": "852531bf-3410-401f-b432-9c3157a386b9",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Manchester",
+        "sort-name": "Manchester",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1996",
+        "ended": null
+      }
+    },
+    {
+      "id": "5532d4c7-bd4a-49e7-adf2-15f8fda31eac",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Benaroya Hall",
+      "address": "200 University St, Seattle, WA 98101",
+      "coordinates": {
+        "latitude": "47.608051",
+        "longitude": "-122.336948"
+      },
+      "area": {
+        "id": "10adc6b5-63bf-4b4e-993e-ed83b05c22fc",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Seattle",
+        "sort-name": "Seattle",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1998",
+        "ended": null
+      }
+    },
+    {
+      "id": "8d413a5a-ba21-457c-b7b2-56d08175489f",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Waterfront Hall",
+      "address": "2 Lanyon Pl, Belfast, Antrim BT1 3WH, United Kingdom",
+      "coordinates": {
+        "latitude": "54.5975",
+        "longitude": "-5.920278"
+      },
+      "area": {
+        "id": "b3cb9848-1440-4c2b-b258-f849f8a9d50a",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Belfast",
+        "sort-name": "Belfast",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1997",
+        "ended": null
+      }
+    },
+    {
+      "id": "4b9cf694-421f-4885-a763-a5e99774f189",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "KBS Hall",
+      "address": "13 Yeouigongwon-ro, Yeongdeungpo-gu, Seoul, South Korea",
+      "area": {
+        "id": "aa03e165-4c73-4959-91c0-a99f9fa8ecab",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Seoul",
+        "sort-name": "Seoul",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1991-09-07",
+        "ended": null
+      }
+    },
+    {
+      "id": "4d279618-f0a2-4cdd-9d3a-5fb352dde4be",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Sony Hall",
+      "address": "235 W 46th St, New York, NY 10036",
+      "coordinates": {
+        "latitude": "40.759588",
+        "longitude": "-73.989187"
+      },
+      "area": {
+        "id": "edd27a39-ff8a-4af4-8bbf-f369b0fb1899",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Midtown Manhattan",
+        "sort-name": "Midtown Manhattan",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "2018-03-27",
+        "ended": null
+      }
+    },
+    {
+      "id": "83fb056f-8395-4504-a6df-a7c55ce545c0",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "AUBADE HALL",
+      "address": "ã€’930-0858 å¯Œå±±çœŒå¯Œå±±å¸‚ç‰›å³¶ç”º9-28",
+      "coordinates": {
+        "latitude": "36.703639",
+        "longitude": "137.213028"
+      },
+      "area": {
+        "id": "1c7dae19-acc8-434b-b2d8-0445ee2cc397",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Toyama",
+        "sort-name": "Toyama",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1996-09",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "ã‚ªãƒ¼ãƒãƒ¼ãƒ‰ãƒ»ãƒ›ãƒ¼ãƒ«",
+          "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+          "name": "ã‚ªãƒ¼ãƒãƒ¼ãƒ‰ãƒ»ãƒ›ãƒ¼ãƒ«",
+          "locale": null,
+          "type": "Place name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "ã¨ã‚„ã¾ã—ã’ã„ã˜ã‚…ã¤ã¶ã‚“ã‹ãƒ›ãƒ¼ãƒ«",
+          "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+          "name": "å¯Œå±±å¸‚èŠ¸è¡“æ–‡åŒ–ãƒ›ãƒ¼ãƒ«",
+          "locale": "ja",
+          "type": "Place name",
+          "primary": true,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "03172252-ae54-4844-a910-b92a519ed874",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Wathen Hall",
+      "address": "St Paul's School, Lonsdale Rd, London Borough of Richmond upon Thames, London SW13 9JT",
+      "coordinates": {
+        "latitude": "51.4887",
+        "longitude": "-0.2372"
+      },
+      "area": {
+        "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "London",
+        "sort-name": "London",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1999",
+        "ended": null
+      }
+    },
+    {
+      "id": "a15a9bd3-3352-4019-80fe-798883f2f7ef",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "festival hall",
+      "disambiguation": "2nd incarnation, 2012-present",
+      "address": "ã€’530-0005 å¤§é˜ªå¸‚åŒ—åŒºä¸­ä¹‹å³¶2-3-18",
+      "coordinates": {
+        "latitude": "34.693471",
+        "longitude": "135.496635"
+      },
+      "area": {
+        "id": "27ed14d0-26b7-4e07-a3a4-f87c9d70b964",
+        "type": "District",
+        "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+        "name": "Kita-ku",
+        "sort-name": "Kita-ku",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "2012-12-20",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "ãƒ•ã‚§ã‚¹ãƒ†ã‚£ãƒãƒ«ãƒ›ãƒ¼ãƒ«",
+          "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+          "name": "ãƒ•ã‚§ã‚¹ãƒ†ã‚£ãƒãƒ«ãƒ›ãƒ¼ãƒ«",
+          "locale": "ja",
+          "type": "Place name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "fb132d8f-ee21-4c37-a366-ccab8b12889a",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Symphony Hall",
+      "disambiguation": "Birmingham",
+      "address": "Broad Street, Birmingham B1 2EA",
+      "coordinates": {
+        "latitude": "52.478611",
+        "longitude": "-1.910556"
+      },
+      "area": {
+        "id": "226c4dca-ef2a-4d4b-ba25-4118d116557a",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Birmingham",
+        "sort-name": "Birmingham",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1991",
+        "ended": null
+      }
+    },
+    {
+      "id": "17155dfe-27d1-4989-9334-083e559f5dfc",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Spivey Hall",
+      "address": "2000 Clayton State Blvd",
+      "area": {
+        "id": "5616da80-c20d-4315-b58a-ff586d5da6d3",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Morrow",
+        "sort-name": "Morrow",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1991",
+        "ended": null
+      }
+    },
+    {
+      "id": "dfcc1fad-c9cc-4bdf-899f-4e851d19a23a",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Exhibition Hall",
+      "area": {
+        "id": "188ae04a-63e2-423a-bc3d-f725f1214a69",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Madison",
+        "sort-name": "Madison",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1995",
+        "ended": null
+      }
+    },
+    {
+      "id": "90dd8562-5ae5-443f-bd8a-ce8da0e9883b",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Oâ€™Reilly Hall",
+      "address": "University College Dublin",
+      "coordinates": {
+        "latitude": "53.30841",
+        "longitude": "-6.22174"
+      },
+      "area": {
+        "id": "462e7952-4fa9-43cd-bc24-2c5c9cd5dd47",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Dublin",
+        "sort-name": "Dublin",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1994",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Halla UÃ­ Raghallaigh",
+          "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+          "name": "Halla UÃ­ Raghallaigh",
+          "locale": "ga",
+          "type": "Place name",
+          "primary": true,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "a798e4bc-6bb0-4e4a-906d-2ad8053d9af5",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Classic Hall",
+      "disambiguation": "previously Chevrolet Hall",
+      "address": "Complexo de Salgadinho - Av. Agamenon MagalhÃ£es, s/n - Salgadinho, Olinda - PE, 53110-710",
+      "coordinates": {
+        "latitude": "-8.033969",
+        "longitude": "-34.871179"
+      },
+      "area": {
+        "id": "434f1fd7-eec7-49d4-829c-ede23ef78c7a",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Olinda",
+        "sort-name": "Olinda",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "2001-08-08",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Chevrolet Hall",
+          "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+          "name": "Chevrolet Hall",
+          "locale": null,
+          "type": "Place name",
+          "primary": null,
+          "begin-date": "2004-07",
+          "end-date": "2015-07-24"
+        },
+        {
+          "sort-name": "Classic Hall",
+          "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+          "name": "Classic Hall",
+          "locale": null,
+          "type": "Place name",
+          "primary": null,
+          "begin-date": "2015-07-25",
+          "end-date": null
+        },
+        {
+          "sort-name": "Classic Hall",
+          "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+          "name": "Classic Hall",
+          "locale": null,
+          "type": "Place name",
+          "primary": null,
+          "begin-date": "2001",
+          "end-date": "2004-07"
+        }
+      ]
+    },
+    {
+      "id": "1047d27c-c26e-448e-84f9-9d617219f9a7",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "DIAMOND HALL",
+      "address": "ã€’460-0007 åå¤å±‹å¸‚ä¸­åŒºæ–°æ „2-1-9",
+      "coordinates": {
+        "latitude": "35.169615",
+        "longitude": "136.920766"
+      },
+      "area": {
+        "id": "e67e95a4-5d23-4d62-95b0-a0c5a3f2c7a8",
+        "type": "District",
+        "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+        "name": "Naka-ku",
+        "sort-name": "Naka-ku",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1992",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "ãƒ€ã‚¤ã‚¢ãƒ¢ãƒ³ãƒ‰ãƒ›ãƒ¼ãƒ«",
+          "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+          "name": "ãƒ€ã‚¤ã‚¢ãƒ¢ãƒ³ãƒ‰ãƒ›ãƒ¼ãƒ«",
+          "locale": "ja",
+          "type": "Place name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "åå¤å±‹ãƒ€ã‚¤ã‚¢ãƒ¢ãƒ³ãƒ‰ãƒ›ãƒ¼ãƒ«",
+          "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+          "name": "åå¤å±‹ãƒ€ã‚¤ã‚¢ãƒ¢ãƒ³ãƒ‰ãƒ›ãƒ¼ãƒ«",
+          "locale": null,
+          "type": "Search hint",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "e5a03ff2-f038-479a-8ab9-ba6e9539744a",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Lincoln Hall",
+      "address": "2424 N. Lincoln Ave., Chicago, IL 60614",
+      "coordinates": {
+        "latitude": "41.925978",
+        "longitude": "-87.649757"
+      },
+      "area": {
+        "id": "29a709d8-0320-493e-8d0c-f2c386662b7f",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Chicago",
+        "sort-name": "Chicago",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "2009-10-16",
+        "ended": null
+      }
+    },
+    {
+      "id": "bc60ebc1-93f1-431d-89dd-142149c951cc",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Bay Hall",
+      "address": "3-4-17, Shinyamashita, Naka-ku, Yokohama, Japan",
+      "coordinates": {
+        "latitude": "35.441724",
+        "longitude": "139.661326"
+      },
+      "area": {
+        "id": "805ccce6-4760-4076-a2b2-dfbbd5d237cc",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Yokohama",
+        "sort-name": "Yokohama",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1996",
+        "ended": null
+      }
+    },
+    {
+      "id": "3e71f531-a243-4406-b696-975b979f6835",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Zipper Hall",
+      "address": "200 S Grand Ave, Los Angeles, CA 90012, United States",
+      "coordinates": {
+        "latitude": "34.054014",
+        "longitude": "-118.249853"
+      },
+      "area": {
+        "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Los Angeles",
+        "sort-name": "Los Angeles",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1998",
+        "ended": null
+      },
+      "aliases": [
+        {
+          "sort-name": "Herbert Zipper Concert Hall",
+          "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+          "name": "Herbert Zipper Concert Hall",
+          "locale": null,
+          "type": "Place name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "ea4f9c47-f550-4900-ba63-7ce31140b465",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Karl Hall",
+      "address": "578 North Main Street, Wilkes-Barre, PA 18701",
+      "coordinates": {
+        "latitude": "41.2947",
+        "longitude": "-75.82535"
+      },
+      "area": {
+        "id": "7a8da20d-4d2e-4882-b020-37d61761c2e5",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Wilkes-Barre",
+        "sort-name": "Wilkes-Barre",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "2017",
+        "ended": null
+      }
+    },
+    {
+      "id": "2f94373b-044e-4771-bd84-3e66c177ec5c",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Ovation Hall",
+      "address": "500 Boardwalk, Atlantic City, NJ 08401",
+      "coordinates": {
+        "latitude": "39.36175",
+        "longitude": "-74.413497"
+      },
+      "area": {
+        "id": "0df0cc88-ee68-4f02-86e4-f16a55bc2fc3",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Atlantic City",
+        "sort-name": "Atlantic City",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "2012-04-02",
+        "ended": null
+      }
+    },
+    {
+      "id": "c9cda8a0-4560-4ae3-89e7-4948385f0228",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Caruth Hall",
+      "address": "3145 Dyer St, Dallas, TX 75205",
+      "coordinates": {
+        "latitude": "32.841944",
+        "longitude": "-96.7837"
+      },
+      "area": {
+        "id": "a67b89f5-a93f-4f7b-b360-2f775ce373a5",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "University Park",
+        "sort-name": "University Park",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "2010-05-27",
+        "ended": null
+      }
+    },
+    {
+      "id": "925952fa-2419-4531-9fee-354841ad2706",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 34,
+      "name": "Maritime Hall",
+      "address": "450 Harrison Street, San Francisco",
+      "area": {
+        "id": "83f22bb6-4631-443c-bace-9fae8540362a",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "San Francisco",
+        "sort-name": "San Francisco",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1995",
+        "end": "2001",
+        "ended": true
+      }
+    },
+    {
+      "id": "3d42155d-9889-4675-b3a8-4ae1b6974740",
+      "type": "Indoor arena",
+      "type-id": "a77c11f6-82fa-3cc0-9041-ac60e5f6e024",
+      "score": 34,
+      "name": "Music Hall",
+      "address": "GÃ¶ttinger StraÃŸe 14, 30449 Hannover, Germany",
+      "coordinates": {
+        "latitude": "52.357423",
+        "longitude": "9.715205"
+      },
+      "area": {
+        "id": "eca79b55-a6c4-4078-a383-8353271ee81e",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Hanover",
+        "sort-name": "Hanover",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "1993",
+        "end": "1998-12",
+        "ended": true
+      },
+      "aliases": [
+        {
+          "sort-name": "Cyberhouse",
+          "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+          "name": "Cyberhouse",
+          "locale": "de",
+          "type": "Place name",
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        },
+        {
+          "sort-name": "Hanomag Tor 1",
+          "name": "Hanomag Tor 1",
+          "locale": "de",
+          "type": null,
+          "primary": null,
+          "begin-date": null,
+          "end-date": null
+        }
+      ]
+    },
+    {
+      "id": "a35ab14d-f56e-406e-9092-3754ee735a4e",
+      "type": "Venue",
+      "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+      "score": 30,
+      "name": "Concord Music Hall",
+      "address": "2047 North Milwaukee Avenue",
+      "coordinates": {
+        "latitude": "41.918351",
+        "longitude": "-87.689903"
+      },
+      "area": {
+        "id": "29a709d8-0320-493e-8d0c-f2c386662b7f",
+        "type": "City",
+        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+        "name": "Chicago",
+        "sort-name": "Chicago",
+        "life-span": {
+          "ended": null
+        }
+      },
+      "life-span": {
+        "begin": "2013-08-17",
+        "ended": null
+      }
+    }
+  ]
+}
