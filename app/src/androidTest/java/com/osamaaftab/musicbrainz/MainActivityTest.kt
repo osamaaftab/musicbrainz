@@ -67,7 +67,7 @@ class MainActivityTest : KoinTest {
     }
 
     @Test
-    fun OnSearchResultSuccess() {
+    fun onSearchResultSuccess() {
         launchFragment(R.id.resultFragment)
         onView(withId(R.id.search)).perform(click())
         onView(withId(R.id.search))
@@ -79,7 +79,7 @@ class MainActivityTest : KoinTest {
     }
 
     @Test
-    fun OnSearchResultFails() {
+    fun onSearchResultFails() {
         launchFragment(R.id.resultFragment)
         onView(withId(R.id.search)).perform(click())
         onView(withId(R.id.search))
@@ -95,7 +95,7 @@ class MainActivityTest : KoinTest {
     }
 
     @Test
-    fun OnSplashToResultNevigation() {
+    fun onSplashToResultNevigation() {
         val mockNavController = mockk<NavController>(relaxed = true)
         val firstScenario = launchFragmentInContainer<SplashFragment>()
         firstScenario.onFragment { fragment ->
