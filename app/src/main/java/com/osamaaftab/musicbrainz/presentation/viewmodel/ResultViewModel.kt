@@ -14,10 +14,18 @@ import com.osamaaftab.musicbrainz.presentation.base.BaseViewModel
 
 class ResultViewModel(private val useCase: GetPlacesUsecase) : BaseViewModel() {
 
-    private val onProgressShow = MutableLiveData<Boolean>()
-    private val onErrorShow = MutableLiveData<String>()
-    private val onErrorState = MutableLiveData<Boolean>()
-    private val onAddPin = MutableLiveData<PlaceModel>()
+    private val _onProgressShow = MutableLiveData<Boolean>()
+    private val onProgressShow: LiveData<Boolean> = _onProgressShow
+
+    private val _onErrorShow = MutableLiveData<String>()
+    private val onErrorShow: LiveData<String> = _onErrorShow
+
+    private val _onErrorState = MutableLiveData<Boolean>()
+    private val onErrorState: LiveData<Boolean> = _onErrorState
+
+    private val _onAddPin = MutableLiveData<PlaceModel>()
+    private  val onAddPin: LiveData<PlaceModel> = _onAddPin
+
 
     fun getPlacesUseCaseResponse(query: String, offset: Int) = object : UseCaseResponse<ApiResponse> {
             override fun onSuccess(response: ApiResponse) {
@@ -25,10 +33,10 @@ class ResultViewModel(private val useCase: GetPlacesUsecase) : BaseViewModel() {
                     val counter = offset + 1
                     onSearchPlaces(query, counter)
                 }
-                onProgressShow.value = false
+                _onProgressShow.value = false
                 for (place in response.places) {
                     if (place.coordinates != null) {
-                        onAddPin.value = place
+                        _onAddPin.value = place
                     }
                 }
                 Log.d(ContentValues.TAG, "result: $response")
@@ -37,9 +45,9 @@ class ResultViewModel(private val useCase: GetPlacesUsecase) : BaseViewModel() {
 
             override fun onError(errorModel: ErrorModel?) {
                 Log.d(ContentValues.TAG, "error: $errorModel?.message code")
-                onProgressShow.value = false
-                onErrorShow.value = errorModel?.errorStatus?.name
-                onErrorState.value = true
+                _onProgressShow.value = false
+                _onErrorShow.value = errorModel?.errorStatus?.name
+                _onErrorState.value = true
             }
         }
 
@@ -60,7 +68,7 @@ class ResultViewModel(private val useCase: GetPlacesUsecase) : BaseViewModel() {
     }
 
     fun onSearchPlaces(query: String, offset: Int? = 0) {
-        onProgressShow.value = true
+        _onProgressShow.value = true
         useCase.invoke(
             scope, RequestModel(offset!!, apiPageLimit, query), getPlacesUseCaseResponse(query, offset)
         )
